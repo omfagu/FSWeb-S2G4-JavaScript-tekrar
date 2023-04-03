@@ -143,7 +143,7 @@ console.log(CemberinAlani(15,pi))
 	
 	for(let sayi in tekrarSayilari){
 	if(tekrarSayilari[sayi] > 1){
-		tekraredensayilar.push(`${sayi} sayısı ${tekrarSayilari[sayi]} kere tekrar edilmiştir`);
+		tekraredensayilar.push('${sayi} sayısı ${tekrarSayilari[sayi]} kere tekrar edilmiştir');
 	}
 	}
 
